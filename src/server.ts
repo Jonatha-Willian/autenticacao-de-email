@@ -30,3 +30,4 @@ const errorHandler: ErrorRequestHandler = (err, req, res, next) => {
 server.use(errorHandler);
 
 server.listen(process.env.PORT);
+console.log('Servidor rodando na porta ' + process.env.PORT);
